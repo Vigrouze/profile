@@ -1,0 +1,116 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #F7F9FC;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin: 50px auto;
+  padding: 15px 15px 30px 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(27, 94, 195, 0.1);
+}
+
+.headers-color {
+  color: #005f73;
+  line-height: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+img {
+  object-fit: cover;
+  width: 150px;
+  border-radius: 50%;
+}
+
+a {
+  color:#005f73;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c6c6c6;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 120%;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 200%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-style {
+  color: white;
+  background-color: #005f73;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gif-style {
+  border-radius: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .gif-style {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .gif-style {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .gif-style {
+    width: 300px;
+  }
+}
